@@ -15,9 +15,7 @@ function updateChuckSays() {
 
 function addItem(item) {
     const chuckQuotes = document.getElementById('chuckQuotes');
-
     const theQuoteItem = document.createElement('li');
     theQuoteItem.textContent = item;
-
     chuckQuotes.append(theQuoteItem);
 }
